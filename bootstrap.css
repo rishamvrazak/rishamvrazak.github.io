@@ -107,7 +107,7 @@ animation: float 3s ease-in-out infinite;
   transition: 0.3s;
 }
 
-/* brand colors */
+
 .bxl-html5 {
   color: #e34c26;
 }
@@ -426,7 +426,6 @@ body {
   animation: fadeRight 1s ease forwards;
 }
 
-/* Keyframes */
 @keyframes fadeUp {
   to {
     opacity: 1;
@@ -460,7 +459,7 @@ body {
   box-shadow: 0 0 30px cyan;
 }
 
-/* Text hover effect */
+
 #home h1:hover {
   color: cyan;
   transition: 0.3s;
@@ -643,14 +642,12 @@ html {
 
  
 
-/* =========================
-   RESPONSIVE FIXES
-========================= */
+
 
 @media (max-width: 992px) {
 
   section {
-    height: auto;   /* IMPORTANT FIX */
+    height: auto;  
     padding: 80px 15px;
   }
 
@@ -668,7 +665,7 @@ html {
   }
 }
 
-/* MOBILE FIX */
+
 @media (max-width: 768px) {
 
   body {
@@ -680,7 +677,7 @@ html {
     padding: 70px 15px;
   }
 
-  /* HOME */
+  
   #home h1 {
     font-size: 1.8rem;
   }
@@ -689,7 +686,7 @@ html {
     font-size: 1rem;
   }
 
-  /* ABOUT SECTION */
+  
   #about .row {
     flex-direction: column !important;
   }
@@ -704,28 +701,27 @@ html {
     margin: auto;
   }
 
-  /* PROJECTS */
+
   .project-card img,
   .project-card video {
     height: auto;
   }
 
-  /* SKILLS */
+
   .skill-card {
     margin-bottom: 15px;
   }
 
-  /* NAVBAR */
+  
   .navbar-nav {
     text-align: center;
   }
 
   #indicator {
-    display: none; /* mobile hover line removed */
+    display: none;
   }
 }
 
-/* SMALL MOBILE */
 @media (max-width: 480px) {
 
   #home h1 {
