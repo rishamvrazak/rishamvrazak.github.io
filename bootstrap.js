@@ -1,4 +1,10 @@
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
 
+window.addEventListener("load", () => {
+  window.scrollTo(0, 0);
+});
 
 let percent = 0;
 let text = document.getElementById("percent");
