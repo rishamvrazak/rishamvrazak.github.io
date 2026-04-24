@@ -248,7 +248,4 @@ if (canvas) {
   }
 
   init();
-  animate();
-}
-
-
+  animate();}
